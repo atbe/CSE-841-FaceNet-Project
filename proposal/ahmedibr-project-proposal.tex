@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{hyperref}
+
+\begin{document}
+
+\date{17.~October 2018}
+
+\title{CSE 841 Project Proposal - Naive FaceNet Implementation}
+\author{Ibrahim Ahmed}
+
+\maketitle
+
+\section{Scientific Question}
+
+How accurate can a machine learning model trained using a deep neural network predict faces?
+
+\section{Project Description}
+
+FaceNet is a unified embedding for face recognition and clustering developed by employees at Google in 2015. The system proposed, called FaceNet, learns a mapping from face images to a compact Euclidean space where distances directly correspond to a measure of face similarity. The methods used in FaceNet involve a deep convolutional neural network that is trained to directly optimize the embeddings.
+
+Implementing FaceNet will introduce quite a few challenges where I will learn how to use deep neural networks and the TensorFlow framework as well as implementing novel ideas from a white-paper.
+
+You can find the FaceNet paper \href{https://arxiv.org/abs/1503.03832}{here}.
+
+I plan to provide an implementation with visualizations of my results based on its performance on the Labeled Faces in the Wild (LFW) dataset.
+
+\section{Implementation Details}
+
+The naive FaceNet implementation will be written in Python using the \href{https://www.tensorflow.org/}{TensorFlow} machine learning framework.
+
+The implementation will be written on a \href{https://colab.research.google.com}{Google Colaboratory Notebook} which provides free GPU access and a Python runtime, free of charge.
+
+\end{document}
